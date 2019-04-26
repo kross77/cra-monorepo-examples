@@ -8,9 +8,8 @@
   "scripts": {
     "clean": "lerna clean -f --yes && rm -rf node_modules",
     "reset": "yarn run clean && yarn",
-    "app1": "cd apps/cra-app1 && yarn start",
-    "app2": "cd apps/cra-app2 && yarn start",
-    "app3": "cd apps/cra-app3 && yarn start"
+    "editor": "cd apps/editor && yarn start",
+    "quiz": "cd apps/quiz && yarn start"
   },
   "dependencies": {},
   "devDependencies": {
